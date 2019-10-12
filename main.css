@@ -82,3 +82,10 @@ header {
 .kollecIMG {
     height: 32px;
 }
+.toast {
+    opacity: 100;
+    float: left;
+}
+.rightf {
+    float: right;
+}
