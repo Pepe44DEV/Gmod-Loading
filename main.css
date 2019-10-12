@@ -1,19 +1,14 @@
 html {
-    background: #e6e9e9;
-    background-image: linear-gradient(270deg, rgb(130, 433, 333) 0%, rgb(316, 221, 421) 100%);
+    background: #e6e9e9 linear-gradient(270deg, rgb(130, 433, 333) 0%, rgb(316, 221, 421) 100%);
     -webkit-font-smoothing: antialiased;
 }
 
 body {
-    background: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.06);
     color: #545454;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 16px;
     line-height: 1.5;
-    margin: 0 auto;
-    max-width: 800px;
-    padding: 2em 2em 4em;
+    background-color: rgba(0,0,0,0);
 }
 
 #Titel {
@@ -23,7 +18,7 @@ body {
     text-align: center;
 }
 
-#Regeln {
+.Regeln {
     color: #222;
     font-weight: 600;
     line-height: 1.3;
@@ -32,15 +27,12 @@ body {
 }
 
 
-#Infos {
+.Infos {
     color: #222;
     font-weight: 600;
-    font height: 1.3;
     text-align: right;
         
 }
-
-
 
 @keyframes colorize {
     0% {
@@ -51,4 +43,42 @@ body {
         -webkit-filter: grayscale(0%);
         filter: grayscale(0%);
     }
+}
+
+#content {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#left {
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+#right {
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+header {
+    height: 10%;
+    width: 100%;
+    margin: 1% auto 5%;
+}
+.card {
+    background-color: rgba(255,255,255,0.5);
+    margin-bottom: 10px;
+}
+.text-left {
+    text-align: left;
+}
+.list-group-item {
+    background-color: rgba(0,0,0,0);
+}
+.card-header {
+    font-weight: bold;
+}
+.kollecIMG {
+    height: 32px;
 }
