@@ -1,0 +1,54 @@
+html {
+    background: #e6e9e9;
+    background-image: linear-gradient(270deg, rgb(130, 433, 333) 0%, rgb(316, 221, 421) 100%);
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    background: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.06);
+    color: #545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+#Titel {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: center;
+}
+
+#Regeln {
+    color: #222;
+    font-weight: 600;
+    line-height: 1.3;
+    text-align: left;
+    
+}
+
+
+#Infos {
+    color: #222;
+    font-weight: 600;
+    font height: 1.3;
+    text-align: right;
+        
+}
+
+
+
+@keyframes colorize {
+    0% {
+        -webkit-filter: grayscale(100%);
+        filter: grayscale(100%);
+    }
+    100% {
+        -webkit-filter: grayscale(0%);
+        filter: grayscale(0%);
+    }
+}
